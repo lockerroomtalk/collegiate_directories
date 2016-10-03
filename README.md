@@ -1,4 +1,4 @@
-# CollegiateDirectories
+# CollegiateDirectories [![Build Status](https://travis-ci.org/lockerroomtalk/collegiate_directories.svg?branch=master)](https://travis-ci.org/lockerroomtalk/collegiate_directories)
 
 Interact with the https://www.collegiatedirectories.com API.
 
