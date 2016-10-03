@@ -11,10 +11,10 @@ RSpec.describe CollegiateDirectories do
     end
 
     context "rollerball" do
-      subject { described_class.new }
+      subject(:client) { described_class.new }
 
       it "raises an error" do
-        expect { subject.coaches_for(:rollerball) }
+        expect { client.coaches_for(:rollerball) }
           .to raise_error(CollegiateDirectories::SportNotFound)
       end
     end
