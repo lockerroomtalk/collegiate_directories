@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = CollegiateDirectories::VERSION
   spec.authors       = ["Paul Stengel"]
   spec.email         = ["paul.stengel@lockerroomtalk.com"]
+  spec.license       = "MIT"
 
   # rubocop:disable Metrics/LineLength
   spec.summary       = "Gem for interacting with the https://www.collegiatedirectories.com API"
