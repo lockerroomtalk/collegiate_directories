@@ -23,7 +23,7 @@ Or install it yourself as:
 ```ruby
 require "collegiate_directories"
 
-directory = CollegiateDirectories.new("my-api-token")
+directory = CollegiateDirectories.new(token: "my-api-token")
 directory.sports
 #=> {"Sports"=>[{"Name"=>"Archery", "IsTraditional"=>false, "Id"=>1}, ... }
 directory.coaches_for(:archery)
